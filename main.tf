@@ -1,15 +1,15 @@
-resource "random_id" "1" {
+resource "random_id" "r1" {
   keepers = {
     time = timestamp()
   }
   byte_length = 8
 }
 
-module "1" {
+module "m1" {
 source "./import"
 }
 
-module "2" {
+module "m2" {
 source "./deployment"
 }
 
