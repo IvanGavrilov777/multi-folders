@@ -1,4 +1,4 @@
-resource "random_id" "3" {
+resource "random_id" "r3" {
   keepers = {
     time = timestamp()
   }
