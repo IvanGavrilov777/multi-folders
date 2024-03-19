@@ -6,10 +6,10 @@ resource "random_id" "r1" {
 }
 
 module "m1" {
-source "./import"
+source = "./import"
 }
 
 module "m2" {
-source "./deployment"
+source = "./deployment"
 }
 
