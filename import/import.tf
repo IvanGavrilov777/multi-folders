@@ -1,6 +1,4 @@
-resource "random_id" "r2" {
-  keepers = {
-    time = timestamp()
-  }
-  byte_length = 8
+import {
+  to = module.m2.random_id.r3
+  id = "9nR33M-8VLY"
 }
