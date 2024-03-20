@@ -11,3 +11,11 @@ source = "./import"
 
 */
 #asd
+
+
+
+import {
+  to = module.m1.aws_instance.VM
+  id = "i-00bbccdaf25d399f8"
+}
+
