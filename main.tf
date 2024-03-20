@@ -4,12 +4,12 @@ resource "random_id" "r1" {
   }
   byte_length = 8
 }
-/*
+
 module "m1" {
 source = "./import"
 }
 
-*/
+
 #asd
 
 
