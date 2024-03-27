@@ -6,7 +6,11 @@ resource "random_id" "r1" {
 }
 
 module "m1" {
-source = "./import"
+source = var.import
+}
+
+variable "import" {
+default = "./import"
 }
 
 import {
